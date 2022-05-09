@@ -109,6 +109,7 @@ const rpsFrontEnd = (humanImageChoice, computerImageChoice, finalMessage) => {
 };
 const newone = () => {
   location.reload();
+  //new edition
 };
 //challenge4
 
