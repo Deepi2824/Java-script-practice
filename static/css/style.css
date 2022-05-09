@@ -1,0 +1,87 @@
+.container-1, .container-2, .container-3,.container-4,.container-5{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-container-1,.flex-box-container-2,.flex-box-container-3,.flex-box-container4,
+.flex-box-row1,.flex-box-row2,.flex-box-row3{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-box-row1,.flex-box-row2{
+    background-color: rgb(4, 44, 4);
+    color: white;
+    padding: 10px;
+    
+}
+.flex-box-row2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-box-row2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-box-row2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-box-row1 div{
+    border: 1px solid black;
+    padding: 10px;
+    flex:1;
+    text-align: center;
+    height: 350px;
+}
+/* .table-decoration{
+    margin-left: auto;
+    margin-right: auto;
+    
+} */
+.flex-box-container-1 div{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+.flex-box-container-2 img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid green;
+    /* flex-grow: 1; */
+    padding: 10px;
+
+}
+.flex-box-container-3 img{
+    width: 150;
+    height: 150;
+} 
+.flex-box-container-3 img:hover{
+    box-shadow: 0px 10px 50px blue;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}    
+.images{
+    width: 70px;
+    height: 100px;
+}
+#your-box{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+    

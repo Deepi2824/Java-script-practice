@@ -1,0 +1,139 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <title>java script crash course</title>
+  </head>
+  <body>
+    <div class="container-1">
+      <h2>Challenge1:Your Age in Days</h2>
+      <div class="flex-box-container-1">
+        <div>
+          <button class="btn btn-primary" onclick="ageInDays()">
+            click me
+          </button>
+        </div>
+        <div>
+          <button class="btn btn-danger" onclick="reset()">reset</button>
+        </div>
+      </div>
+      <div class="flex-box-container-1">
+        <div id="flex-box-result"></div>
+      </div>
+    </div>
+    <div class="container-2">
+      <h2>Challenge2:Cat Generator</h2>
+      <div>
+        <button class="btn btn-success" onclick="imageGenerator()">
+          Generate cat
+        </button>
+      </div>
+      <div class="flex-box-container-2">
+        <!-- <div id="flex-box-images"></div> -->
+      </div>
+    </div>
+    <div class="container-3">
+      <h2>Challenge3:Rock,Paper,Scissors</h2>
+      <div class="flex-box-container-3" id="flex-box-rps-div">
+        <img
+          id="rock"
+          src="./static/rock.jpg"
+          alt="rock"
+          onclick="rpsgame(this)"
+        />
+        <img
+          id="paper"
+          src="./static/paper.jpg"
+          alt="paper"
+          onclick="rpsgame(this)"
+        />
+        <img
+          id="scissor"
+          src="./static/secessor.jpg"
+          alt="Scissor"
+          onclick="rpsgame(this)"
+        />
+      </div>
+      <div>
+        <button class="btn btn-success" type="button" onclick="newone()">
+          rePaly
+        </button>
+      </div>
+    </div>
+
+    <div class="container-4">
+      <h2 id="change-color">Challenge4:change the color of All buttons!</h2>
+      <div class="flex-box-container4">
+        <form action="">
+          <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+            <option value="random">Random</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="reset">Reset</option>
+          </select>
+        </form>
+
+        <button type="button" class="btn btn-primary">wee</button>
+        <button type="button" class="btn btn-warning">she</button>
+        <button type="button" class="btn btn-success">he</button>
+        <button type="button" class="btn btn-danger">yooo</button>
+      </div>
+    </div>
+
+  <div class="container-5">
+    <h2>Challenge5:Black Jack</h2>
+    <h3><span id="black-jack-result" >Let's Play</span></h3>
+    
+    <div class="flex-box-row1">
+      <div id="your-box">
+        
+        <h2>you:<span id='my-row'>0</span></h2>
+        
+      </div>
+
+      <div id="dealer-box">
+        <h2>dealers:<span id='dealer-row'>0</span></h2>
+      </div>
+   
+      
+
+    </div>
+
+    <div class="flex-box-row2">
+      <div>
+        <button type="button" class="btn-lg btn-primary mr-2" id="hit-button">Hit</button>
+        <button type="button" class="btn-lg btn-warning mr-2" id="stand-button">Stand</button>
+        <button type="button" class="btn-lg btn-danger mr-2" id="deal-button">Deal</button>
+      </div>
+
+    </div>
+
+    <div class="flex-box-row3">
+       <table class="table-decoration">
+         <tr>
+           <th>Wins</th>
+           <th>Losses</th>
+           <th>Draws</th>
+         </tr>
+         <tr>
+           <td><span id="Wins">0</span></td>
+           <td><span id="Losses">0</span></td>
+           <td><span id="Draws">0</span></td>
+           
+         </tr>
+       </table>
+    </div> 
+
+  </div>
+
+
+
+    <script src="static/js/project.js"></script>
+  </body>
+</html>
